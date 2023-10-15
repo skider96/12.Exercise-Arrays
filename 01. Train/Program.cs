@@ -4,7 +4,25 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+           int numberOfWagons = int.Parse(Console.ReadLine);
+           
+ int sum = 0;
+           
+           int[] people = new int [numberOfWagons];
+           for (var i = 0; i < wagons.Length - 1; i++)
+           {
+            int numberOfPeople = int.Parse(Console.ReadLine);
+             sum += numberOfPeople;
+            people[i] = numberOfPeople;
+           }
+        
+         
+           for (var i = 0; i < people.Length; i++)
+           {
+            System.Console.Write($"{people[i]} ");
+
+           }
+           System.Console.WriteLine(sum);
         }
     }
 }
